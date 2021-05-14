@@ -5,7 +5,7 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <AssemblyName>ARS</AssemblyName>
-    <DefineConstants>SHVDN3</DefineConstants>
+    <DefineConstants>SHVDN2</DefineConstants>
     <Version>0.7.7.0</Version>
     <OutputPath>..\bin\$(Configuration)\</OutputPath>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>

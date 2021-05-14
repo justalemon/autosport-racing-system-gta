@@ -1,0 +1,3 @@
+[submodule "RagePresence"]
+	path = RagePresence
+	url = https://github.com/justalemon/RagePresence.git

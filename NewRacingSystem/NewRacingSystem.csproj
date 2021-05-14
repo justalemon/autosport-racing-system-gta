@@ -21,6 +21,7 @@
     <PackageReference Include="ScriptHookVDotNet2" Version="2.10.14">
       <IncludeAssets>compile</IncludeAssets>
     </PackageReference>
+    <Compile Include="$(ProjectDir)/../RagePresence/RagePresence.SHVDN3/Wrapper.cs" />
   </ItemGroup>
 
 </Project>

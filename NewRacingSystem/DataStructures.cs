@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using static ARS.MathExtensions;
+
 namespace ARS
 {
     public enum Context
@@ -14,9 +16,9 @@ namespace ARS
 
     public class AIData
     {
-        public float SpeedToInput = ARS.MPHtoMS(10); 
-        public float MaxSpeed = ARS.MPHtoMS(250);
-        public float MinSpeed = ARS.MPHtoMS(20f);
+        public float SpeedToInput = MPHtoMS(10); 
+        public float MaxSpeed = MPHtoMS(250);
+        public float MinSpeed = MPHtoMS(20f);
 
     }
     public class VehData

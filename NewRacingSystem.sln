@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewRacingSystem", "NewRacingSystem\NewRacingSystem.csproj", "{BF57EBD2-AD9B-4F82-89C1-FF70A3FE05A4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RagePresence.SHVDN2", "..\RagePresence\RagePresence.SHVDN2\RagePresence.SHVDN2.csproj", "{5ABEBE54-16DB-4B3C-BBBB-79C054AAE78B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{BF57EBD2-AD9B-4F82-89C1-FF70A3FE05A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF57EBD2-AD9B-4F82-89C1-FF70A3FE05A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF57EBD2-AD9B-4F82-89C1-FF70A3FE05A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABEBE54-16DB-4B3C-BBBB-79C054AAE78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABEBE54-16DB-4B3C-BBBB-79C054AAE78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

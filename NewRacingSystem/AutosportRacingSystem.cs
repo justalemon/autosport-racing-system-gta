@@ -1,6 +1,7 @@
 ﻿using GTA;
 using GTA.Math;
 using GTA.Native;
+using RagePresence;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -790,6 +791,9 @@ namespace ARS
 
         void CleanEverything()
         {
+            RagePresence.RagePresence.CustomDetails = null;
+            RagePresence.RagePresence.CustomState = null;
+
             CleanRacers();
 
             foreach (Prop p in TrackLimits) if (CanWeUse(p)) p.Delete();
@@ -1901,6 +1905,10 @@ namespace ARS
             if (!InFreeCam || Game.IsScreenFadedIn) Function.Call(Hash.DO_SCREEN_FADE_IN, 500);
             Game.SetControlNormal(2, GTA.Control.VehicleLookBehind, 1f);
 
+            string name = CurrentFile?.SelectSingleNode("//Name")?.InnerText;
+            RagePresence.RagePresence.CustomDetails = $"Driving on {name}";
+
+            RagePresence.RagePresence.CustomState = "In Race";
 
             if (ARS.SettingsFile.GetValue("CATCHUP", "OnlyLastHalf", true)) ARS.catchupPos = (int)(ARS.Racers.Count / 2);
 
